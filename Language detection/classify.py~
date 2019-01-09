@@ -21,7 +21,7 @@ def predict_lang(text):
     if x <0.8 and x>0.2:
         return("OTHER")
     else:
-        return loaded_model.predict(text_vect)[0]
+        return nb_model.predict(text_vect)[0]
     
 #test
 print(predict_lang("oaded_model hqjdhkqdjh zajdhazdlkamdk jqdqjdmaze لحميد العيب "))
